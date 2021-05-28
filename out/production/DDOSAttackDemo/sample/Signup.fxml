@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="762.0" style="-fx-background-color: #fff5fc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="396.0" layoutY="34.0" prefHeight="395.0" prefWidth="335.0" style="-fx-background-color: #ffc2f2;">
+         <children>
+            <TextField id="fname" layoutX="86.0" layoutY="73.0" prefHeight="31.0" prefWidth="238.0" />
+            <PasswordField id="password" layoutX="85.0" layoutY="228.0" prefHeight="31.0" prefWidth="238.0" />
+            <Button id="signupbtn" layoutX="143.0" layoutY="276.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0" style="-fx-background-color: #e75480;" text="Sign up" />
+            <Text id="haveAccount" layoutX="143.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have An Account" textAlignment="RIGHT" wrappingWidth="153.0" />
+            <Text fill="#121212" layoutX="105.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up" textAlignment="CENTER" wrappingWidth="145.98388671875">
+               <font>
+                  <Font name="Garamond Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text layoutX="12.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name" />
+            <Text layoutX="13.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <Text layoutX="12.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+            <TextField id="email" layoutX="86.0" layoutY="111.0" prefHeight="31.0" prefWidth="238.0" />
+            <Text layoutX="12.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+            <TextField id="address" layoutX="86.0" layoutY="151.0" prefHeight="31.0" prefWidth="238.0" />
+            <Text layoutX="12.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
+            <TextField id="phone" layoutX="86.0" layoutY="191.0" prefHeight="31.0" prefWidth="238.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="395.0" fitWidth="375.0" layoutX="30.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/University%20of%20the%20people/cartoon-gift-shop-with-storekeeper-at-the-window-vector.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
